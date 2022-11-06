@@ -25,14 +25,14 @@
     </header>
 
     <!-- impostazione main -->
-    <main  class=" m-0 p-0 g-0">
-           
+    <main>
+
         <!-- primo container main -->
         <div class=bg-info>
 
             <div class="container-fluid ">
                 <div class="row main row ">
-                    <div class="col text-dark ">
+                    <div class="col-12 col-md-12 col-xl-12 text-dark ">
                         <div class="text-center">
                             <img src="img/undraw_profile_pic_ic5t.svg" class="rounded-circle mt-3" width="100"
                                 height="100" alt="img profilo">
@@ -57,7 +57,7 @@
         <div class="container ">
 
             <!--primo row 3 col-->
-            <div class="row  main row g-5 mt-1 justify-content-evenly ">
+            <div class="row  main row g-5 mt-1 ">
 
                 <!--primo col row1 -->
                 <div class="col-12 col-md-6 col-xl-4">
@@ -160,6 +160,7 @@
 
 
         <div class=bg-info>
+
             <div class="container">
 
 
@@ -170,15 +171,15 @@
                     </div>
                     <div class="col-6 col-md-6">
                         <label for="inputlastname" class="form-label">Last name</label>
-                        <input type="password" class="form-control" id="inputName">
+                        <input type="text" class="form-control" id="inputName">
                     </div>
                     <div class="col-6 col-md-6">
                         <label for="inputEmail4" class="form-label">Email adress</label>
                         <input type="mail" class="form-control" id="inputEmail4">
                     </div>
                     <div class="col-6 col-md-6">
-                        <label for="inputHours" class="form-label">Hours</label>
-                        <input type="text" class="form-control" id="inputAddress2">
+                        <label for="inputHours" class="form-label">Hours Requested</label>
+                        <input type="number" class="form-control" id="inputhours">
                     </div>
                     <div class="col-6 col-md-6">
                         <label for="inputTypeofwork" class="form-label">Type of work</label>
@@ -196,9 +197,9 @@
                     </div>
 
 
-                    <div class="col-md-12">
-                        <label for="inputtext" class="form-label">Message</label>
-                        <input type="text" class="form-control">
+                    <div class="col-md-12 ">
+                        <label for="comment" class="form-label">Message</label>
+                        <textarea type="text" class="form-control" rows="5" id="comment"></textarea>
                     </div>
 
 
@@ -207,11 +208,13 @@
                     <div class="col-12 text-center warning">
                         <button type="submit" class="btn btn-warning mb1 black bg-silver ">Send</button>
                     </div>
-                </form>
-                <h4 class="p-2 my-3">Il prezzo finale è di: 153.75</h4>
 
+
+                    <h4 class="p-2 my-3">Il prezzo finale è di: 153.75</h4>
+                </form>
 
             </div>
+
 
         </div>
 
@@ -220,12 +223,12 @@
     <!--footer-->
     <footer class="text-center bg-dark m-0 p-0 g-0 ">
 
-        <div class="contrainer-fluid">
+        <div class="contrainer ">
             <div class="row g-0">
                 <div class="col text-muted">
 
 
-                    <h4 class=p-3> LOCATION</h4>
+                    <h4 class="p-3 mt-3"> LOCATION</h4>
 
                     <p CLASS="pb-3">2115 JOHN DANIEL DRIVE <br> CLARK, MO 65243</p>
 
